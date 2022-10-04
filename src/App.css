@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+div.wrap{
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+div.title{
+  width: 100%;
+
+  height: 630px;
+/* background-color: pink; */
+}
+div.title h1{margin: 200px;}
+div.title h4{margin-left: 200px;margin-top: -190px;}
+/* .main-bg {
+  height : 300px;
+  background-image : url('./bg.png');
+  background-size : cover;
+  background-position : center;
+} */
+div.about{position: relative; width: 100%; height: 560px; background-color: aliceblue; margin: 0 auto;}
+div.about h2{position: absolute; transform: rotate(270deg); font-size: 100px; text-align: left;margin-top: 100px;}
+div.about > .main-text{ width: 700px; margin: 170px;margin-top: 150px; text-align: justify;padding: 100px; font-weight:100;}
+div.Education{background-color: aliceblue;}
+div.Education > .sub-text{text-align: right; margin-right: 100px; padding: 100px;}
+div.Education h3 {font-size: 100px;}
+div.skill{width: 1000px;margin:  0 auto;padding: 100px; } 
+div.skill h2{margin:  0 auto;text-align: center;}
+div.skill h5{margin:  0 auto; padding-bottom: 30px;text-align: center;line-height: 1.2;}
+
+
+div.publishing{width: 100%;  height:900px; background-color: aliceblue;
+  display: grid; margin: 30px; padding: 30px; text-align: center; margin: 0 auto;}
+div.publishing h2{text-align: center; margin:  30px; padding: 30px;}
+
+div.footer{ margin: 0 auto; background-color: #fff;text-align: center; width: 100%;height: 500px;}
+
+
